@@ -23,6 +23,8 @@ body:
         - adminpanel_app
         - settings_app
         - load_balancer
+        - auth_app
+        - shell_app
 
   - type: textarea
     id: test_info

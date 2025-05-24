@@ -1,7 +1,7 @@
 name: 🧹 Chore / Maintenance
-description: Setup, config, CI/CD, dependencies, formatting, linting
+description: Setup, config, CI/CD, dependencies, formatting
 title: "[Chore] "
-labels: ["Maintenance"]
+labels: ["maintenance"]
 projects: ["DesiLinkr/7"]
 body:
   - type: dropdown
@@ -23,6 +23,8 @@ body:
         - adminpanel_app
         - settings_app
         - load_balancer
+        - auth_app
+        - shell_app
 
   - type: textarea
     id: task
