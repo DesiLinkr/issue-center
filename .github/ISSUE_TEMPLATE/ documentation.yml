@@ -1,0 +1,31 @@
+name: 📝 Documentation
+description: Report missing or incorrect documentation
+title: "[Docs] "
+labels: ["documentation", "status:To Do"]
+projects: ["DesiLinkr/7"]
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: Related Service/App
+      options:
+        - auth_service
+        - access_core
+        - url_service
+        - url_app
+        - shell_app
+        - qrcode_service
+        - qrcode_app
+        - analytics_service
+        - analytics_app
+        - email_notification_service
+        - background_jobs_service
+        - adminpanel_app
+        - settings_app
+        - load_balancer
+
+  - type: textarea
+    id: missing_docs
+    attributes:
+      label: What needs to be documented or improved?
+      description: Be specific about missing or unclear sections

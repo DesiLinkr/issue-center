@@ -1,0 +1,31 @@
+name: 🧪 Add/Update Test Case
+description: Create or improve unit/integration test cases
+title: "[Test] "
+labels: ["test"]
+projects: ["DesiLinkr/7"]
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: Related Service/App
+      options:
+        - auth_service
+        - access_core
+        - url_service
+        - url_app
+        - shell_app
+        - qrcode_service
+        - qrcode_app
+        - analytics_service
+        - analytics_app
+        - email_notification_service
+        - background_jobs_service
+        - adminpanel_app
+        - settings_app
+        - load_balancer
+
+  - type: textarea
+    id: test_info
+    attributes:
+      label: What should be tested?
+      description: Describe the component, logic, or flow that needs better coverage

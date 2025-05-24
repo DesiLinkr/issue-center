@@ -1,0 +1,31 @@
+name: 🔧 Refactor
+description: Propose internal code improvement with no feature change
+title: "[Refactor] "
+labels: ["refactor"]
+projects: ["DesiLinkr/7"]
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service/App
+      options:
+        - auth_service
+        - access_core
+        - url_service
+        - url_app
+        - shell_app
+        - qrcode_service
+        - qrcode_app
+        - analytics_service
+        - analytics_app
+        - email_notification_service
+        - background_jobs_service
+        - adminpanel_app
+        - settings_app
+        - load_balancer
+
+  - type: textarea
+    id: refactor_details
+    attributes:
+      label: What should be refactored?
+      description: Describe the improvement and goal (e.g., performance, readability)

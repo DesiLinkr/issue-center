@@ -1,0 +1,31 @@
+name: ✨ Feature Request
+description: Suggest a new feature or enhancement
+title: "[Feature] "
+labels: ["enhancement"]
+projects: ["DesiLinkr/7"]
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: Target Service/App
+      options:
+        - auth_service
+        - access_core
+        - url_service
+        - url_app
+        - shell_app
+        - qrcode_service
+        - qrcode_app
+        - analytics_service
+        - analytics_app
+        - email_notification_service
+        - background_jobs_service
+        - adminpanel_app
+        - settings_app
+        - load_balancer
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: What do you want to add or improve?

@@ -1,0 +1,31 @@
+name: 🧹 Chore / Maintenance
+description: Setup, config, CI/CD, dependencies, formatting, linting
+title: "[Chore] "
+labels: ["Maintenance"]
+projects: ["DesiLinkr/7"]
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: Affected Service/App
+      options:
+        - auth_service
+        - access_core
+        - url_service
+        - url_app
+        - shell_app
+        - qrcode_service
+        - qrcode_app
+        - analytics_service
+        - analytics_app
+        - email_notification_service
+        - background_jobs_service
+        - adminpanel_app
+        - settings_app
+        - load_balancer
+
+  - type: textarea
+    id: task
+    attributes:
+      label: Task Description
+      description: Describe the maintenance or refactor task

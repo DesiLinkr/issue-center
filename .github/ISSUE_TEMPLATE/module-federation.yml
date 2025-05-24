@@ -1,0 +1,20 @@
+name: 🧩 Module Federation
+description: Tasks related to setup or updates of Webpack Module Federation between frontend apps.
+labels: [type:mf, status:todo]
+title: "[Module Federation] "
+projects: ["DesiLinkr/7"]
+body:
+  - type: textarea
+    attributes:
+      label: What needs to be changed or added?
+      description: Be specific — which apps are affected (host/remote), what modules are exposed/consumed, etc.
+
+  - type: input
+    attributes:
+      label: Affected Repos
+      description: List of frontend micro-apps involved (e.g., auth_app, settings_app)
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Any links to PRs, diagrams, or error messages

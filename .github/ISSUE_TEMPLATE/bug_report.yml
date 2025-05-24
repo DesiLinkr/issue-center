@@ -1,0 +1,37 @@
+name: 🐞 Bug Report
+description: Report a bug in any DesiLinkr service or app
+title: "[Bug] "
+labels: ["bug", "status:To Do"]
+projects: ["DesiLinkr/7"]
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: Affected Service/App
+      options:
+        - auth_service
+        - access_core
+        - url_service
+        - url_app
+        - shell_app
+        - qrcode_service
+        - qrcode_app
+        - analytics_service
+        - analytics_app
+        - email_notification_service
+        - background_jobs_service
+        - adminpanel_app
+        - settings_app
+        - load_balancer
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Describe the bug and how to reproduce it
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser, device, etc.
