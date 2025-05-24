@@ -4,15 +4,15 @@ This repository contains standardized GitHub Issue Templates used across the **D
 
 ## 📋 Available Issue Templates
 
-| Template Name              | Purpose                                                                                  | Labels                         |
-| -------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------ |
-| 🐛 `bug.yml`               | Report bugs or unexpected behavior in any service or app                                 | `type:bug`, `status:todo`      |
-| ✨ `feature.yml`           | Propose new features, enhancements, or new microservices                                 | `type:feature`, `status:todo`  |
-| 🔧 `chore.yml`             | General maintenance tasks like dependency updates, config changes, minor fixes           | `type:chore`, `status:todo`    |
-| 🛠️ `refactor.yml`          | Code restructuring without behavior changes                                              | `type:refactor`, `status:todo` |
-| 🧩 `module-federation.yml` | Tasks related to setup, updates, or debugging of Module Federation (MF) in frontend apps | `type:mf`, `status:todo`       |
-| 📚 `docs.yml`              | Documentation additions or improvements                                                  | `type:docs`, `status:todo`     |
-| ✅ `test.yml`              | Tasks related to writing or improving tests                                              | `type:test`, `status:todo`     |
+| Template Name              | Purpose                                                                                  | Labels              |
+| -------------------------- | ---------------------------------------------------------------------------------------- | --------------------|
+| 🐛 `bug.yml`               | Report bugs or unexpected behavior in any service or app                                 | `bug`               |
+| ✨ `feature.yml`           | Propose new features, enhancements, or new microservices                                 | `feature`           |
+| 🔧 `chore.yml`             | General maintenance tasks like dependency updates, config changes, minor fixes           | `maintenance`       |
+| 🛠️ `refactor.yml`          | Code restructuring without behavior changes                                              | `refactor`          |
+| 🧩 `module-federation.yml` | Tasks related to setup, updates, or debugging of Module Federation (MF) in frontend apps | `ModuleFederation`  |
+| 📚 `docs.yml`              | Documentation additions or improvements                                                  | `docs`              |
+| ✅ `test.yml`              | Tasks related to writing or improving tests                                              | `test`              |
 
 ## 📖 Template Usage Guidelines
 
