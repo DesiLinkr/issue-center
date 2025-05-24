@@ -28,7 +28,6 @@ body:
         - settings_app
         - load_balancer
         - auth_app
-        - shell_app
 
   - type: textarea
     attributes:
